@@ -1,0 +1,20 @@
+Get data from input file.
+Processing on cosam_type_3.txt
+Get data completed.
+Start strategy with balance $2500, fee 5%
+COSAM_ORDER STARTING
+Amount strategy 1,3,7,16,37,77,160,350,700
+[2019-09-25T00:09] BUY 1 at 1 GREEN ([cosam_order] Type 3: Approach 2-2)
+                => LOSE: -$1 -> Balance: $2499
+[2019-09-25T00:10] BUY 3 at 1 RED__ ([cosam_order] Type 3: Approach 2-2)
+                => LOSE: -$3 -> Balance: $2496
+[2019-09-25T00:11] SELL 7 at 1 RED__ ([cosam_order] Type 3: Approach 2-2)
+                => LOSE: -$7 -> Balance: $2489
+[2019-09-25T00:12] SELL 16 at 1 GREEN ([cosam_order] Type 3: Approach 2-2)
+                => LOSE: -$16 -> Balance: $2473
+[2019-09-25T00:13] BUY 37 at 1 GREEN ([cosam_order] Type 3: Approach 2-2)
+                => LOSE: -$37 -> Balance: $2436
+[2019-09-25T00:14] BUY 77 at 2 RED__ ([cosam_order] Type 3: Approach 2-2)
+                => LOSE: -$77 -> Balance: $2359
+COSAM_ORDER COMPLETED
+End of strategy with balance $2359 => LOSE (-141.00)

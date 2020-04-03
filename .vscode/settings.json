@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "**/*.css": {
+      "when": "$(basename).scss"
+    },
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/**.js": {
+      "when": "$(basename).tsx"
+    }
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.referencesCodeLens.enabled": false,
+  "typescript.implementationsCodeLens.enabled": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true
+}

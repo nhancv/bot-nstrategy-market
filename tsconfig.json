@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
+    "lib": ["es2015", "es2017", "dom"]
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"],
+  "include": ["src/**/*.ts"]
+}

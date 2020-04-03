@@ -1,0 +1,48 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2,
+            {
+                "SwitchCase": 1,
+                "MemberExpression": 1,
+                "FunctionDeclaration": {
+                    "parameters": "first"
+                },
+                "VariableDeclarator": {
+                    "var": 2,
+                    "let": 2,
+                    "const": 3
+                },
+                "ArrayExpression": "first",
+                "ObjectExpression": "first",
+                "ImportDeclaration": "first",
+                "flatTernaryExpressions": true
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "off",
+        "no-unused-vars": "warn",
+        "no-redeclare": "off",
+        "no-unexpected-multiline": "warn",
+        "no-undef": "off"
+    }
+}
