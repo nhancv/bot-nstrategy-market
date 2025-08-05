@@ -1,5 +1,7 @@
 # NStrategy market
 
+Binary trading with custom-specific strategies. Noti to telegram
+
 ## Install
 ```
 npm install
